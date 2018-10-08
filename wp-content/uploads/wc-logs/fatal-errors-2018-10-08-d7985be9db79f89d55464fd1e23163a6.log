@@ -1,0 +1,12 @@
+2018-10-08T15:28:32+00:00 CRITICAL Uncaught Error: Call to a member function is_visible() on null in C:\xampp\htdocs\magercemilan\wp-content\themes\ShopperWooThemeFree\woocommerce\content-product-archive.php:21
+Stack trace:
+#0 C:\xampp\htdocs\magercemilan\wp-includes\template.php(690): require()
+#1 C:\xampp\htdocs\magercemilan\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\magercemilan\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php(330): wc_get_template_part('content', 'product-archive')
+#3 C:\xampp\htdocs\magercemilan\wp-content\themes\ShopperWooThemeFree\woocommerce\archive-product.php(122): woocommerce_get_template_part('content', 'product-archive')
+#4 C:\xampp\htdocs\magercemilan\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\magercemilan\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\magercemilan\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
