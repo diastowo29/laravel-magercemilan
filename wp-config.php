@@ -28,7 +28,7 @@ define('DB_USER', 'magcem_magcem');
 /** MySQL database password */
 define('DB_PASSWORD', 'R@hasia123');
 
-/** MySQL hostname */
+/** MySQL hostname testing*/
 define('DB_HOST', 'mysql.freehostia.com');
 
 /** Database Charset to use in creating database tables. */
