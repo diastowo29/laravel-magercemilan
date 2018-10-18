@@ -29,7 +29,7 @@ define('DB_USER', 'magcem_magcem');
 define('DB_PASSWORD', 'R@hasia123');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.freehostia.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
